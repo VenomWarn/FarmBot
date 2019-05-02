@@ -18,7 +18,7 @@ namespace LeagueBot
         {
             SetupDriver();
             LoginToLeague();
-            FarmRoadTwo();
+            FarmRoad();
         }
 
         static void SetupDriver()
@@ -44,7 +44,12 @@ namespace LeagueBot
             StartButton2.Click();
         }
 
-        static void FarmRoadTwo()
+        static void CheckKaptcha()
+        {
+
+        }
+
+        static void FarmRoad()
         {
             EnubledWild();
             while (true)
@@ -73,15 +78,16 @@ namespace LeagueBot
                                     Atacks[i - 1].Click();
                                     System.Threading.Thread.Sleep(1000);
                                     CloseButton();
-                                    MoveToHealAndRoadTwo();
+                                    MoveToHeal();
+                                    MoveToRoad();
                                     EnubledWild();
                                 }
                             }
                         }
                     }
-                } catch (Exception ex)
+                }
+                catch (Exception ex)
                 {
-                    Console.WriteLine(ex);
                 }
             }
         }
@@ -90,7 +96,7 @@ namespace LeagueBot
         {
             System.Threading.Thread.Sleep(1000);
             ReadOnlyCollection<IWebElement> Buttons = driver.FindElements(By.ClassName("button"));
-            foreach(IWebElement Button in Buttons)
+            foreach (IWebElement Button in Buttons)
             {
                 if (Button.Text == "Закрыть")
                 {
@@ -100,30 +106,39 @@ namespace LeagueBot
             }
         }
 
-        private static void MoveToHealAndRoadTwo()
+        private static void MoveToHeal()
         {
+            IWebElement Emblem = driver.FindElement(By.ClassName("emblem"));
+            Emblem.Click();
             System.Threading.Thread.Sleep(1000);
-            string[] RoadsIds = { "btnGo18", "btnGo9", "btnGo1", "btnGo3" };
-            IWebElement Road = driver.FindElement(By.Id("btnGo9"));
-            for (int i = 1; i < RoadsIds.Length; i++)
-            {
-                System.Threading.Thread.Sleep(1000);
-                Road = driver.FindElement(By.Id(RoadsIds[i]));
-                Road.Click();
-            }
+            IWebElement TeleportIcon = driver.FindElement(By.ClassName("icon-telep"));
+            TeleportIcon.Click();
+            System.Threading.Thread.Sleep(1000);
+            driver.SwitchTo().Alert().Accept();
+            System.Threading.Thread.Sleep(1000);
+            driver.SwitchTo().DefaultContent();
+            System.Threading.Thread.Sleep(1000);
+            IWebElement HealPoint = driver.FindElement(By.Id("btnGo3"));
+            HealPoint.Click();
             System.Threading.Thread.Sleep(1000);
             IWebElement Heal = driver.FindElement(By.ClassName("btnLocHeal"));
             Heal.Click();
             System.Threading.Thread.Sleep(1000);
             Heal = driver.FindElement(By.ClassName("menuHealAll"));
             Heal.Click();
-            for (int i = RoadsIds.Length - 2; i >= 0; i--)
+        }
+
+        private static void MoveToRoad()
+        {
+            System.Threading.Thread.Sleep(1000);
+            string[] RoadsIds = { "btnGo1", "btnGo9", "btnGo18" };
+            IWebElement Road = driver.FindElement(By.Id("btnGo1"));
+            for (int i = 0; i < RoadsIds.Length; i++)
             {
                 System.Threading.Thread.Sleep(1000);
                 Road = driver.FindElement(By.Id(RoadsIds[i]));
                 Road.Click();
             }
-
         }
 
         static void EnubledWild()

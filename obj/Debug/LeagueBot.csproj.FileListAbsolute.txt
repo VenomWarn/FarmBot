@@ -24,3 +24,29 @@ D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium Chloride.dll
 D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium.Helper.dll
 D:\Programs\VS Project\LeagueBot\bin\Debug\LINQtoPOML.pdb
 D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium Chloride.pdb
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\phantomjs-license.txt
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\LeagueBot.exe.config
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\LeagueBot.exe
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\LeagueBot.pdb
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Ionic.Zip.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\LINQtoPOML.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Newtonsoft.Json.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\NuGet.Core.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Selenium Chloride.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Selenium.Helper.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\WebDriver.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\WebDriver.Support.dll
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\LINQtoPOML.pdb
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Selenium Chloride.pdb
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\WebDriver.xml
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\WebDriver.Support.xml
+D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.csprojAssemblyReference.cache
+D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.csproj.CoreCompileInputs.cache
+D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.csproj.CopyComplete
+D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.exe
+D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.pdb
