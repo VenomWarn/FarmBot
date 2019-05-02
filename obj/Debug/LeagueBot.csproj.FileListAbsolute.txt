@@ -1,0 +1,26 @@
+D:\Programs\VS Project\LeagueBot\bin\Debug\LeagueBot.exe.config
+D:\Programs\VS Project\LeagueBot\bin\Debug\LeagueBot.exe
+D:\Programs\VS Project\LeagueBot\bin\Debug\LeagueBot.pdb
+D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\WebDriver.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\WebDriver.Support.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Programs\VS Project\LeagueBot\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Programs\VS Project\LeagueBot\bin\Debug\WebDriver.xml
+D:\Programs\VS Project\LeagueBot\bin\Debug\WebDriver.Support.xml
+D:\Programs\VS Project\LeagueBot\obj\Debug\LeagueBot.csprojAssemblyReference.cache
+D:\Programs\VS Project\LeagueBot\obj\Debug\LeagueBot.csproj.CoreCompileInputs.cache
+D:\Programs\VS Project\LeagueBot\obj\Debug\LeagueBot.csproj.CopyComplete
+D:\Programs\VS Project\LeagueBot\obj\Debug\LeagueBot.exe
+D:\Programs\VS Project\LeagueBot\obj\Debug\LeagueBot.pdb
+D:\Programs\VS Project\LeagueBot\bin\Debug\phantomjs-license.txt
+D:\Programs\VS Project\LeagueBot\bin\Debug\Ionic.Zip.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\LINQtoPOML.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\Microsoft.Web.XmlTransform.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\Newtonsoft.Json.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\NuGet.Core.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium Chloride.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium.Helper.dll
+D:\Programs\VS Project\LeagueBot\bin\Debug\LINQtoPOML.pdb
+D:\Programs\VS Project\LeagueBot\bin\Debug\Selenium Chloride.pdb
