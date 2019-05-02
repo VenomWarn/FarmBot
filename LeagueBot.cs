@@ -44,9 +44,25 @@ namespace LeagueBot
             StartButton2.Click();
         }
 
-        static void CheckKaptcha()
+        static Boolean CheckKaptcha()
         {
+            IWebElement Kaptcha = driver.FindElement(By.Id("divFightCaptcha"));
+            if (Kaptcha.GetAttribute("style") == "")
+            {
+                return false;
+            }
+            return true;
+        }
 
+        static Boolean CheckHP()
+        {
+            IWebElement HealthBar = driver.FindElement(By.ClassName("barHP"));
+            HealthBar = HealthBar.FindElement(By.TagName("div"));
+            if (Int32.Parse(HealthBar.GetAttribute("style").Split(' ')[1].Split('%')[0]) < 30)
+            {
+                return false;
+            }
+            return true;
         }
 
         static void FarmRoad()
@@ -57,7 +73,7 @@ namespace LeagueBot
                 try
                 {
                     IWebElement BattleStatus = driver.FindElement(By.Id("divVisioFight"));
-                    if (BattleStatus.GetAttribute("style") == "")
+                    if (BattleStatus.GetAttribute("style") == "" && CheckKaptcha())
                     {
                         ReadOnlyCollection<IWebElement> Atacks = driver.FindElements(By.ClassName("divMoveTitle"));
                         ReadOnlyCollection<IWebElement> AtacksValues = driver.FindElements(By.ClassName("divMoveParams"));
@@ -66,7 +82,7 @@ namespace LeagueBot
                             if (Atacks[i].Text == "Атака крыльями")
                             {
                                 System.Threading.Thread.Sleep(1000);
-                                if (Int32.Parse(AtacksValues[i].Text.Split('/')[0]) != 0)
+                                if (Int32.Parse(AtacksValues[i].Text.Split('/')[0]) != 0 && CheckHP())
                                 {
                                     Atacks[i].Click();
                                     System.Threading.Thread.Sleep(1000);
