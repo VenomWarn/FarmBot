@@ -41,8 +41,8 @@
     <Reference Include="LINQtoPOML, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\LinqToPoml.1.0.0.3\lib\LINQtoPOML.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.XmlTransform, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\Microsoft.Web.Xdt.2.1.1\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
+    <Reference Include="Microsoft.Web.XmlTransform, Version=3.0.0.34420, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Web.Xdt.3.0.0\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Selenium.WebDriver.PhantomJS.Xplatform.2.45.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
@@ -103,10 +103,10 @@
     <Error Condition="!Exists('packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets'))" />
     <Error Condition="!Exists('packages\Selenium.PhantomJS.WebDriver.2.1.1\build\Selenium.PhantomJS.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.PhantomJS.WebDriver.2.1.1\build\Selenium.PhantomJS.WebDriver.targets'))" />
     <Error Condition="!Exists('packages\Selenium.WebDriver.IEDriver64.3.11.0.1\build\Selenium.WebDriver.IEDriver64.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.WebDriver.IEDriver64.3.11.0.1\build\Selenium.WebDriver.IEDriver64.targets'))" />
-    <Error Condition="!Exists('packages\Selenium.Firefox.WebDriver.0.13.0\build\Selenium.Firefox.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.Firefox.WebDriver.0.13.0\build\Selenium.Firefox.WebDriver.targets'))" />
+    <Error Condition="!Exists('packages\Selenium.Firefox.WebDriver.0.24.0\build\Selenium.Firefox.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.Firefox.WebDriver.0.24.0\build\Selenium.Firefox.WebDriver.targets'))" />
   </Target>
   <Import Project="packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('packages\Selenium.WebDriver.ChromeDriver.74.0.3729.6\build\Selenium.WebDriver.ChromeDriver.targets')" />
   <Import Project="packages\Selenium.PhantomJS.WebDriver.2.1.1\build\Selenium.PhantomJS.WebDriver.targets" Condition="Exists('packages\Selenium.PhantomJS.WebDriver.2.1.1\build\Selenium.PhantomJS.WebDriver.targets')" />
   <Import Project="packages\Selenium.WebDriver.IEDriver64.3.11.0.1\build\Selenium.WebDriver.IEDriver64.targets" Condition="Exists('packages\Selenium.WebDriver.IEDriver64.3.11.0.1\build\Selenium.WebDriver.IEDriver64.targets')" />
-  <Import Project="packages\Selenium.Firefox.WebDriver.0.13.0\build\Selenium.Firefox.WebDriver.targets" Condition="Exists('packages\Selenium.Firefox.WebDriver.0.13.0\build\Selenium.Firefox.WebDriver.targets')" />
+  <Import Project="packages\Selenium.Firefox.WebDriver.0.24.0\build\Selenium.Firefox.WebDriver.targets" Condition="Exists('packages\Selenium.Firefox.WebDriver.0.24.0\build\Selenium.Firefox.WebDriver.targets')" />
 </Project>

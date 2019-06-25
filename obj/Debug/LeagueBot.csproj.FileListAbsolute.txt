@@ -50,3 +50,4 @@ D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.csproj.CoreCompileInputs.cache
 D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.csproj.CopyComplete
 D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.exe
 D:\GitHub\LeagueBot\FarmBot\obj\Debug\LeagueBot.pdb
+D:\GitHub\LeagueBot\FarmBot\bin\Debug\Microsoft.Web.XmlTransform.pdb

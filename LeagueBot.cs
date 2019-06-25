@@ -104,6 +104,7 @@ namespace LeagueBot
                 }
                 catch (Exception ex)
                 {
+                    Console.WriteLine(ex);
                 }
             }
         }
